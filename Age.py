@@ -1,9 +1,9 @@
 def yage(age):
-    if age<20:
+    if age>0 and age<20:
         print("You are a child")
-    elif age>20:
+    elif age>=20 and age<40:
         print("You are younger")
-    elif age>40:
+    elif age>=40 and age<60:
         print("You are elder")
     else:
-        print("You are old")
+        return("You are old")
