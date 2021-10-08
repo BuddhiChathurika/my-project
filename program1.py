@@ -1,8 +1,7 @@
 from Age import yage
 from Name import name
 
-age = yage(24)
 print("My Age")
-print(name)
-print(age)
+age = yage(age=24)
 
+print("Your name is " ,name)
